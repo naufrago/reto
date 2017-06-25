@@ -22,8 +22,10 @@
        <div class="collapse navbar-collapse" id="myNavbar">
        <ul class="nav navbar-nav navbar-right">
           
-         <li><a href="perfil_usuario.php?id_usuario=<?php echo $id ;?>"  data-original-title="perfil de usuario" tooltips class="tooltips" >Nombre de usuario : <?php echo $usuario; ?></a></li>
-         <li class="btn-trial"><a href="cerrar_sesion.php?id_usuario=<?php echo $id ;?>"   data-toggle="modal">Salir</a></li>
+         <li><a href="perfil_usuario.php?id_usuario=<?php echo $id ;?>"  data-original-title="perfil de usuario" tooltips class="tooltips"  class="icon-user"> <i class="icon-user"></i>
+                          <span>Nombre de usuario : <?php echo $usuario; ?></span></a></li>
+         <li class="btn-trial"><a href="cerrar_sesion.php?id_usuario=<?php echo $id ;?>"   data-toggle="modal"> <i class="icon-off"></i>
+                          <span>Salir</span></a></li>
 
        </ul>
        </div>
@@ -40,6 +42,9 @@
     }
     if ($fila['url']=='tool.php') {
       header('location: game/index.php');
+    }
+    if ($fila['url']=='joker.php') {
+      header('location: lock_screen1.php');
     }
 
 ?>

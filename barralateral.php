@@ -39,8 +39,32 @@
                           ?>
                           
                       </ul>
+                      
                   </li>
                   <!--multi level menu end-->
+
+                  <?php 
+                  $consulta2="SELECT * FROM ganadores WHERE id_usuario='$id'";
+                  $resutlado2=mysqli_query($conexion,$consulta2);
+                  while ( $fila=mysqli_fetch_assoc($resutlado2)){
+                          if ($fila['id_usuario']==$id) {?>
+                              <li class="sub-menu">
+                                <a href="javascript:;" >
+                                    <i class="icon-book"></i>
+                                    <span>Winners</span>
+                                </a>
+                                <ul class="sub">
+                                    <li ><a  href="winner.php">Lista de ganadores</a></li>
+                                    
+                                </ul>
+                            </li> <?php
+                            # code...
+                          }
+                  }
+                  
+                  ?>
+                  
+
 
               </ul>
               <!-- sidebar menu end-->

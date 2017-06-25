@@ -232,11 +232,16 @@ function update() {
 	// pressed
 	if (input.isPressed(32)) { // Space
 		bullets.push(new Bullet(tank.x + 10, tank.y, -8, 2, 6, "#fff"));
+		
 	}
 
 	// update all bullets position and checks
 	for (var i = 0, len = bullets.length; i < len; i++) {
 		var b = bullets[i];
+
+
+				
+		
 		b.update();
 		// remove bullets outside of the canvas
 		if (b.y + b.height < 0 || b.y > display.height) {
@@ -292,6 +297,9 @@ function update() {
 					}
 				}
 			}
+
+
+
 			if (len2==0 && i!=len) {
 				location.href ="../xasder.php?dom=<?php echo $id; ?>&url=tool.php";
                 
@@ -315,7 +323,7 @@ function update() {
 			}
 		}
 		// create and append new bullet
-		bullets.push(new Bullet(a.x + a.w*0.5, a.y + a.h, 4, 2, 4, "#fff"));
+		bullets.push(new Bullet(a.x + a.w*0.5, a.y + a.h, 4, 4, 4, "#e61414"));
 	}
 	// update the aliens at the current movement frequence
 	if (frames % lvFrame === 0) {
@@ -344,7 +352,7 @@ function update() {
 				aliens[i].y += 30;
 				//alert("di "+aliens[i].y);
 				if(aliens[i].y==510){
-					alert("game over");
+					alert("Game Over");
 					location.href ="index.php?status=1";
 					break;
                 

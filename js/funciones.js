@@ -43,6 +43,21 @@ function redireccionar(a) {
             document.getElementById('time').innerHTML="00:0"+m+":"+s;
              t=setTimeout(function(){arranque(ss,id1)},1000);
         }
+        var m1=9
+        function arranque1(seg,id){
+            var h=00;
+                m1=m1;
+                id1=id
+            var s=seg;
+
+
+            
+            ss=redu1(s);
+            s=checkTime(ss);
+
+            document.getElementById('time').innerHTML="00:0"+m1+":"+s;
+             t=setTimeout(function(){arranque1(ss,id1)},1000);
+        }
 
 
         
@@ -56,6 +71,19 @@ function redireccionar(a) {
                     m=0;
                     ar=00;
                     location.href ="xasder.php?dom="+id1+"&url=deep.php";
+                }
+            }
+            return ar;
+        }
+        function redu1(ar) {
+            ar=ar-1;
+            if (ar==-1) {
+                ar=59;
+                m1=m1-1
+                if (m1==-1) {
+                    m1=0;
+                    ar=00;
+                    location.href ="xasder.php?dom="+id1+"&url=joker.php";
                 }
             }
             return ar;
