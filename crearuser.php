@@ -48,7 +48,7 @@ if($password != '' && $apellido != '' && $nombre != '' && $usuario!=''){
 }else{
 
 	//para devolver al formulario de registro si no ingreso todo
-	header('location: registroo.php?status=3');
+	header('location: registro.php?status=3');
 
 }
 

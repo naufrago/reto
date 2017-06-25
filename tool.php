@@ -42,9 +42,6 @@ include ("datos_usuario.php");
 
 <?php include "barralateral.php"; ?>
 <section id="main-content">
-<!-- 
-n->6 
--->
 	<section class="wrapper">
     <div class="alert alert-success alert-dismissable">
                   <center>Ya estas cansado de  los niveles? ,   pues apenas estamos empezando </center>

@@ -21,10 +21,7 @@
         <div class="login-wrap">
             <input type="text" class="form-control" id="user" name="user" placeholder="usuario" autofocus>
             <input type="password" class="form-control" id="password" name="password" placeholder="Password">
-            <label class="checkbox">
-                <input type="checkbox" value="remember-me"> Recordarme
-                
-            </label>
+            
             <button class="btn btn-lg btn-login btn-block" type="submit">Ingresar</button>
             
             <div class="registration">

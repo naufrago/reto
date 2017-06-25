@@ -3,6 +3,29 @@
 <?php
 include ("conexion.php");
 
+set_error_handler("myFunctionErrorHandler", E_WARNING);
+function myFunctionErrorHandler($errno, $errstr, $errfile, $errline)
+{
+    /* Según el típo de error, lo procesamos */
+    switch ($errno) {
+       case E_WARNING:
+                
+			    header('location: login.php?status=1');
+                return true;
+                break;
+            
+            case E_NOTICE:
+                header('location: login.php?status=1');
+                return true;
+                break;
+            
+            default:
+                /* Ejecuta el gestor de errores interno de PHP */
+                return false;
+                break;
+            }
+    }
+
 //capturo los datos de la matriz POST
 $email=$_POST['user'];
 $password=$_POST['password'];

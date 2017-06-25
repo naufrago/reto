@@ -6,10 +6,19 @@
 <?php include ("noindex.php");?>
 
   <body class="login-body">
+  
 
     <div class="container">
     <div class="form-group">
+
       <form class="form-signin"  id="sign-up" method="post" action="crearuser.php">
+      <?php //cuadro de ERROR
+                  if(isset($_GET['status']) and $_GET['status']==3){
+            ?>
+                  <div class="alert alert-danger alert-dismissable">
+                          Campos vacios datos no validos!
+                  </div>
+              <?php }  ?>
         <h2 class="form-signin-heading">Registrarce ahora</h2>
         <div class="login-wrap">
             <p>ingrese sus datos personales</p>

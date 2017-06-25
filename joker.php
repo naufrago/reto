@@ -102,7 +102,7 @@ include ("datos_usuario.php");
                 
 
 	</section>
-	<div><div><div><div><div><div><div><div> </div></div></div></div></div></div></div></div>
+	<div><div><div><div><div><div><div><div><!-- palabra clave : keys --> </div></div></div></div></div></div></div></div>
 </section>
 
 

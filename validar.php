@@ -71,6 +71,27 @@ include ("datos_usuario.php");
 		
 
 			}
+			    $bandera1=false;
+				$consulta_usuario1="SELECT * FROM niveles_completos";
+				$resultadoq=mysqli_query($conexion,$consulta_usuario1);
+				while($filaw=mysqli_fetch_assoc($resultadoq)){
+					//echo "consulto";
+					if($filaw['id_usuario']==$id and $filaw['id_nivel']=="16" ){
+						$bandera1=true;
+					}
+				}
+
+				if($bandera1==false){
+					//echo "consulto1";
+
+					//realizo la insercion en la BD de los datos ingresados por el usuario
+					$consultaa="INSERT INTO niveles_completos SET id_usuario='$id', id_nivel='16'";
+					//para realizar la consutla
+					mysqli_query($conexion,$consultaa);
+
+					
+
+				}
 			header("location: winner.php ");
 		}else{
 			$consulta="INSERT INTO locked SET id_usuario='$id', url='joker.php'";
