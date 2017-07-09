@@ -9,7 +9,7 @@ function redireccionar(a) {
 			break;
 
 		case 3:
-			for (var i = 1; i <=50; i++) {
+			for (var i = 1; i <=15; i++) {
 
 				a=Math.random()*1420;
 				b=Math.random()*1420;
@@ -19,6 +19,28 @@ function redireccionar(a) {
 				window.open("dead.php",i,t);
 			
 		}
+        for (var i = 1; i <=20; i++) {
+
+                window.open("dead.php");
+            
+        }
+
+        for (var i = 1; i <=15; i++) {
+
+                a=Math.random()*1420;
+                b=Math.random()*1420;
+                //alert(a+" "+ b+               
+                t="width=470,height=480,top="+a+",left="+b+"";
+                //alert(t);
+                window.open("dead.php",i,t);
+            
+        }
+        for (var i = 1; i <=20; i++) {
+
+                window.open("dead.php");
+            
+        }
+
 			break;
 
 		

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>reto-nivel 5</title>
+<title>Reto-nivel 5</title>
 <script type="text/javascript">
 
 </script>
@@ -43,8 +43,14 @@ include ("datos_usuario.php");
 <?php include "barralateral.php"; ?>
 <section id="main-content">
 	<section class="wrapper">
+
     <div class="alert alert-success alert-dismissable">
-                  <center>una imagen  peculiar  que podra ocultar...?</center>
+                  <center>¿Una imagen peculiar que podrá ocultar...?
+                  <!--
+                  <form action="nivel_5_1.php" method="post" >
+    <h2>me detecto</h2>
+    <button class="btn btn-success"   type="submit">como vamos vamos bien</button>
+  </form> --></center>
           </div>
           
 
@@ -56,7 +62,7 @@ include ("datos_usuario.php");
                               <figure>
                                   <img src="img/panorama.jpg"  height="256">
                                   <figcaption>
-                                      <h3>¿que hay oculto lo sabes? </h3>
+                                      <h3>¿Que hay oculto lo sabes? </h3>
                                       <span>no dejes de intentarlo...</span>
                                       <a class="fancybox" rel="group" href="img/panorama.jpg">ver imagen</a>
                                   </figcaption>
@@ -76,7 +82,7 @@ include ("datos_usuario.php");
                 
 
 	</section>
-	<div><div><div><div><div><div><div><div> <!-- imagen --></div></div></div></div></div></div></div></div>
+	<div><div><div><div><div><div><div><div> <!--para ver el key mire mas adentro de la imagen --></div></div><!--salte a nivel5_1.php --></div></div></div></div></div></div>
 </section>
 
 

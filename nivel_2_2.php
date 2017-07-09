@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>reto-nivel 2.2</title>
+<title>Reto-nivel 2.2</title>
 <script type="text/javascript">
 
 </script>
@@ -45,8 +45,9 @@ include ("datos_usuario.php");
 <section id="main-content">
 	<section class="wrapper">
     <div class="alert alert-success alert-dismissable">
-                  <center>nivel 2.1<br> que bueno es saber que la gente sube de nivel pero quiero decirte algo...<br>
-                  estas seguro que no te desviaste del camino ?</center>
+                  <center>nivel 2.2<br> que bueno es saber que la gente sube de nivel, pero quiero decirte algo...<br>
+                  estas seguro que no te desviaste del camino?</center>
+
           </div>
 
          <center><img src="img/jodido.jpg"></center>

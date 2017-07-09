@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>reto-nivel 3.2</title>
+<title>Reto-nivel 3.2</title>
 <script type="text/javascript">
 
 </script>
@@ -58,9 +58,10 @@ include ("datos_usuario.php");
 menos generalizado de que existen varios  niveles en los que se puede
 dividir la red, del más superficial al más profundo.</h2>
 
-<h2>cuantos niveles son:</h2> 
+<h2>cuantos niveles son:</h2>
+ 
 		    <input type="number" name="val" id="val">
-		    <button class="btn btn-success"   type="submit">validar</button></center>
+		    <button class="btn btn-success"   type="submit">Validar</button></center>
         <!-- palabra clave : 6_niveles-->
 		    </form>
 

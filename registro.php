@@ -21,7 +21,7 @@
               <?php }  ?>
         <h2 class="form-signin-heading">Registrarce ahora</h2>
         <div class="login-wrap">
-            <p>ingrese sus datos personales</p>
+            <p>Ingrese sus datos personales</p>
             Nombre(s)
             <div class="form-group has-feedback">
             <input type="text" class="form-control" id="nombre" name="nombre" placeholder="nombre" autofocus></div>
@@ -30,7 +30,7 @@
             <input type="text" class="form-control" id="apellido" name="apellido" placeholder="apellido" autofocus></div>
             
 
-            <p> ingrese sus datos de cuenta</p>
+            <p> Ingrese sus datos de cuenta</p>
             Usuario
             <div class="form-group has-feedback">
             <input type="text" class="form-control" id="usuario" name="usuario" placeholder="usuario" autofocus></div>
@@ -46,9 +46,9 @@
             <button class="btn btn-lg btn-login btn-block" type="submit">Registrar</button>
 
             <div class="registration">
-                ya estoy reguistrado.
+                Ya estoy reguistrado.
                 <a class="" href="login.php">
-                    ingresar 
+                    Ingresar 
                 </a>
                 <CENTER><a class="" href="index.php">
                     "INICIO"

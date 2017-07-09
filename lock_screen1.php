@@ -45,7 +45,7 @@ include ("datos_usuario.php");
 <body class="lock-screen" onload="arranque1(60,<?php echo $id; ?>)">
 
     <div class="lock-wrapper">
-    <center><h1>te recomiendo espera los 10 minutos por que de lo contarrio se reiniciara el temporizador</h1></center>
+    <center><h1>sabes por qué estás en este punto? Pues has hecho un mal movimiento, pero por ahora te recomiendo espera los 10 minutos porque de lo contrario se reiniciará el temporizador</h1></center>
 
         <div id="time"></div>
 

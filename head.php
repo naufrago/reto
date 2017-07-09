@@ -23,5 +23,22 @@
     <script src="js/funciones.js"></script>
     <script src="js/validador.js"></script>
 
+
+
+
+    
+    
+    
+
+    
+    
+    
+
+    <link href="assets/advanced-datatable/media/css/demo_page.css" rel="stylesheet" />
+    <link href="assets/advanced-datatable/media/css/demo_table.css" rel="stylesheet" />
+
+
+
+    
     
 </head>

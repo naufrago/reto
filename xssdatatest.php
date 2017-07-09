@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>reto-nivel 1.3</title>
+<title>Reto-nivel 1.3</title>
 <script type="text/javascript">
 
 </script>
@@ -45,15 +45,16 @@ include ("datos_usuario.php");
 <section id="main-content">
 	<section class="wrapper">
     <div class="alert alert-success alert-dismissable">
-                  <center>que tanto sabes de ataques XSS de esto depende que pases a la siguiente  nivel </center>
+                  <center>que tanto sabes de ataques XSS de esto depende que pases al siguiente nivel </center>
           </div>
 
 
-    <h1>bueno  aca en este punto debe hacer la forma de  crear un formulario  el cual debe tener un input que envie por post la palabra clave "full-xss-test" y  debe tener este input  un name="nivel_2"  y un id="nivel_2" y debe redireccionar a  la pagina nivel2.php </h1> <br><br>    
+    <h1>bueno acá en este punto debe hacer la forma de crear un formulario el cual debe tener un input que envié por post la palabra clave "full-xss-test" y debe tener este input un name="nivel_2" y un id="nivel_2" y debe re direccionar a la página nivel2.php </h1> <br><br>    
+
 <center>
     <form action="xssdatatest.php" >
-    <h2>cual es tu nombre: </h2><input type="text" name="name"/>
-    <button class="btn btn-success"   type="submit">enviar</button>
+    <h2>Cual es tu nombre: </h2><input type="text" name="name"/>
+    <button class="btn btn-success"   type="submit">Enviar</button>
   </form>
   <?php if(isset($_GET['name'])) echo "<h2>hola, " . $_GET['name'] . ", como te va con los niveles del reto?</h2>" ?></center>
     

@@ -9287,7 +9287,8 @@
 			 *      } );
 			 *    } );
 			 */
-			"sInfo": "Showing _START_ to _END_ of _TOTAL_ entries",
+			"sInfo": "Se estan mostrando los Registros del  <b>_START_</b> al <b>_END_</b> y la totalidad de los Registros son <b>_TOTAL_</b> ",
+			//"sInfo": "Showing _START_ to _END_ of _TOTAL_ entries",
 		
 		
 			/**

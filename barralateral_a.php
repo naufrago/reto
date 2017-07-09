@@ -21,7 +21,9 @@
                                 $url=$fila['id_usuario'];
 
                             ?>
-                            <li><a  href="datos.php?id=<?php echo $url;?>"><?php echo $nombrenivel; ?></a></li>
+                            <li><a  href="datos.php?id=<?php echo $url;?>">
+                            <i class="icon-user-md"></i>
+                          <span><?php echo $nombrenivel; ?></span></a></li>
                             <?php
 
 

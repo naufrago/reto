@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>reto-nivel 3.1</title>
+<title>Reto-nivel 3.1</title>
 <script type="text/javascript">
 
 </script>
@@ -44,7 +44,7 @@ include ("datos_usuario.php");
 <section id="main-content">
 	<section class="wrapper">
     <div class="alert alert-success alert-dismissable">
-                  <center>bueno poco a poco se avanza  en estos niveles</center>
+                  <center>Bueno poco a poco se avanza en estos niveles</center>
           </div>
 
            
@@ -55,8 +55,8 @@ include ("datos_usuario.php");
                               <figure>
                                   <img src="img/matrix.jpg" width="201" height="156">
                                   <figcaption>
-                                      <h3>matrix recargado </h3>
-                                      <span>reto-nivel 3.1 </span>
+                                      <h3>Matrix recargado </h3>
+                                      <span>Reto-nivel 3.1 </span>
                                       <a class="fancybox" rel="group" href="img/matrix.jpg">ver imagen</a>
                                   </figcaption>
                               </figure>
@@ -67,7 +67,7 @@ include ("datos_usuario.php");
                                   <img src="img/snowden.jpg" width="201" height="156">
                                   <figcaption>
                                       <h3>Snowden </h3>
-                                      <span>reto-nivel 3.1 </span>
+                                      <span>Reto-nivel 3.1 </span>
                                       <a class="fancybox" rel="group" href="img/snowden.jpg">ver imagen</a>
                                   </figcaption>
                               </figure>
@@ -78,7 +78,7 @@ include ("datos_usuario.php");
                                   <img src="img/dredd.jpg" width="201" height="156">
                                   <figcaption>
                                       <h3>Dredd </h3>
-                                      <span>reto-nivel 3.1 </span>
+                                      <span>Reto-nivel 3.1 </span>
                                       <a class="fancybox" rel="group" href="img/dredd.jpg">ver imagen</a>
                                   </figcaption>
                               </figure>
@@ -89,7 +89,7 @@ include ("datos_usuario.php");
                                   <img src="img/elysium.jpg" width="201" height="156">
                                   <figcaption>
                                       <h3>Elysium </h3>
-                                      <span>reto-nivel 3.1 </span>
+                                      <span>Reto-nivel 3.1 </span>
                                       <a class="fancybox" rel="group" href="img/elysium.jpg">ver imagen</a>
                                   </figcaption>
                               </figure>
@@ -100,7 +100,7 @@ include ("datos_usuario.php");
                                   <img src="img/Who.jpg" width="201" height="156">
                                   <figcaption>
                                       <h3>Who Am I—No System Is Safe </h3>
-                                      <span>reto-nivel 3.1 </span>
+                                      <span>Reto-nivel 3.1 </span>
                                       <a class="fancybox" rel="group" href="img/who.jpg">ver imagen</a>
                                   </figcaption>
                               </figure>
@@ -111,7 +111,7 @@ include ("datos_usuario.php");
                                   <img src="img/game.jpg" width="201" height="156">
                                   <figcaption>
                                       <h3>Game of Death </h3>
-                                      <span>reto-nivel 3.1 </span>
+                                      <span>Reto-nivel 3.1 </span>
                                       <a class="fancybox" rel="group" href="img/game.jpg">ver imagen</a>
                                   </figcaption>
                               </figure>
@@ -121,12 +121,13 @@ include ("datos_usuario.php");
                 </section>
 
                 <form action="movies.php" method="post"><center>
-		      <h1>te gustaron las imagenes anteriores!!!</h1>
-		      <h2>son peliculas famosas por su contenido tecnologico y sobre todo aparicion de un programa para </h2>
-		      <h2>HAKERS</h2> 
-		      <h2> que tienen en comun todas estas imagenes</h2>
+		      <h1>te gustaron las imágenes anteriores!!!</h1>
+          <h2>son películas famosas por su contenido tecnológico y sobre todo aparición de un programa para </h2>
+          <h2>HAKERS</h2> 
+          <h2> que tienen en común todas estas imágenes</h2>
 
-				en minusculas y sin espacios : 
+        en minúsculas y sin espacios:
+
 		    <input type="text" name="val" id="val">
 		    <button class="btn btn-success"   type="submit">validar</button></center>
 		    </form>

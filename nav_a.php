@@ -23,7 +23,7 @@
        <ul class="nav navbar-nav navbar-right">
           
          <li><a href="perfil_a.php?id_usuario=<?php echo $id ;?>"  data-original-title="perfil de usuario" tooltips class="tooltips"  class="icon-user"> <i class="icon-user"></i>
-                          <span>Nombre de usuario : <?php echo $usuario; ?></span></a></li>
+                          <span>Nombre de Administrador : <?php echo $usuario; ?></span></a></li>
          <li class="btn-trial"><a href="cerrar_sesion.php?id_usuario=<?php echo $id ;?>"   data-toggle="modal"> <i class="icon-off"></i>
                           <span>Salir</span></a></li>
 

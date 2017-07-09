@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>estas perdido!</title>
+	<title>Estas perdido!</title>
 	
 </head>
 <body>

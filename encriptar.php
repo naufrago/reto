@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>encriptar</title>
+	<title>Encriptar</title>
     <?php include "head.php"; ?>
 </head>
 <body>
@@ -10,7 +10,7 @@
 <form method="post" action="encriptar.php">
 <h2>Cadena a encriptar</h2><br>
 <input type="text" name="encriptar">
-<button class="btn btn-success"   type="submit">encriptar</button>
+<button class="btn btn-success"   type="submit">Encriptar</button>
 </form>
 
 <?php
@@ -31,7 +31,7 @@
 <form method="post" action="encriptar.php">
 <h2>Cadena a desencriptar</h2><br>
 <input type="text" name="desencriptar">
-<button class="btn btn-success"   type="submit">desencriptar</button>
+<button class="btn btn-success"   type="submit">Desencriptar</button>
 </form>
 <?php
 

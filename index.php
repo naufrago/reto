@@ -10,7 +10,7 @@
           if(isset($_GET['status']) and $_GET['status']==2){
     ?>
           <div class="alert alert-success alert-dismissable">
-                  <center>sesion cerrada con exito ...</center>
+                  <center>sesión cerrada con éxito ...</center>
           </div>
       <?php }  ?>
 
@@ -18,8 +18,9 @@
 	<div class="container">
 		<div class="header-section text-center"><br><br><br>
             <h1>BIENVENIDO AL RETO </h2>
-            <h2><p>Esperamos que sea de su agrado,<br> y se desarrolle aun mas su logica y perspectiva</p></h2>
-            <br><br><p><h3>el reto consiste en  realizar una serie de niveles  y completar cada una de las pruebas, sabemos que algunas seran muy simples, otras talves algo complejas  pero  recuerde NADA ES LO QUE PARECE y la idea es que se divierta aprenda cosas nuevas y que se esfuerce por ser el numero 1.<br><br>Le recomendamos que utilice navegadores como firefox u opera.  </h3></p>
+            <h2><p>Esperamos que sea de su agrado,<br> y se desarrolle aún más su lógica y perspectiva</p></h2>
+            <br><br><p><h3>El reto consiste en realizar una serie de niveles y completar cada una de las pruebas, sabemos que algunos serán muy simples, otros talvez algo complejas, pero recuerde NADA ES LO QUE PARECE y la idea es que se divierta aprenda cosas nuevas y que se esfuerce por ser el número 1. <br><br>Le recomendamos que utilice navegadores como Firefox u Opera.  </h3></p>
+
             <hr class="bottom-line">
           </div>
     </div>

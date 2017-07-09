@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>reto-nivel 3.4</title>
+<title>Reto-nivel 3.4</title>
 <script type="text/javascript">
 
 </script>
@@ -44,7 +44,7 @@ include ("datos_usuario.php");
 <section id="main-content">
 	<section class="wrapper">
     <div class="alert alert-success alert-dismissable">
-                  <center>Ya estas cansado de  los niveles? ,   pues apenas estamos empezando </center>
+                  <center>Ya estás cansado de los niveles?,   pues apenas estamos empezando </center>
           </div>
 
 
@@ -56,13 +56,14 @@ include ("datos_usuario.php");
 navegador de Internet basado en Firefox, y por otro lado una red de
 servidores que redirigen constantemente cualquier conexión
 entrante, de forma que no se pueda saber de dónde proviene y
-manteniendo el anonimato del cliente que realiza la petición ademas de ser el navegador auque un poco lento el mas utilizado para incurcionar en  la profundida de la DEEP WEB.
+manteniendo el anonimato del cliente que realiza la petición además de ser el navegador, aunque un poco lento el más utilizado para incursionar en la profundidad de la DEEP WEB.
 
-				sabes cual es el seudonimo  y el nivel del que estamos hablando?
-        <br>nivel:
+				sabes de que herramienta estamos hablando?
+        <br>Tool:
+
         <input type="text" name="X" id="X"></h1>
 		    
-		    <button class="btn btn-success"   type="submit"><h1>validar</h1></button></center>
+		    <button class="btn btn-success"   type="submit"><h1>Validar</h1></button></center>
 		    </form>
 
 		    <?php 

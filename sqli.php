@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>reto-nivel 1.1</title>
+<title>Reto-nivel 1.1</title>
 <script type="text/javascript">//palabra clave: 1'or1='1 </script>
 <?php include "head.php"; ?>
 <?php include ("control_sesion.php");
@@ -41,15 +41,15 @@ include ("datos_usuario.php");
 <section id="main-content">
 	<section class="wrapper">
     <div class="alert alert-success alert-dismissable">
-                  <center>felicitaciones  has pasado al siguiente nivel</center>
+                  <center>Felicitaciones  has pasado al siguiente nivel</center>
           </div>
 
 
     
     <form action="sqli.php" method="post">
-      ingrese  la cadena mas comun en sql-injection 
+      Ingrese  la cadena mas comun en sql-injection 
     <input type="text" name="sql" id="sql">
-    <button class="btn btn-success"   type="submit">validar</button>
+    <button class="btn btn-success"   type="submit">Validar</button>
     </form>
 
     <?php 
@@ -63,7 +63,7 @@ include ("datos_usuario.php");
           ?>
           <br><br>
           <form action="cripto.php" method="post">
-          <button class="btn btn-success"   type="submit">siguiente nivel</button>
+          <button class="btn btn-success"   type="submit">Siguiente nivel</button>
             
           </form>
 

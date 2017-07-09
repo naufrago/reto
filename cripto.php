@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>reto-nivel 1.2</title>
+<title>Reto-nivel 1.2</title>
 <script type="text/javascript">
 function alerta(){
   var a= "<?php alertcrypto();?>";//busca la key para el siguiente nivel recuerda desde los niveles pasados hay palabras claves

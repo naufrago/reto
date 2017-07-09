@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>reto-nivel 2</title>
+<title>Reto-nivel 2</title>
 <script type="text/javascript">
 
 </script>
@@ -69,17 +69,18 @@ include ("datos_usuario.php");
 	<?php 
 	if ($estado==1) {?>
 		<div class="alert alert-success alert-dismissable">
-                  <center>que bien ya esta en el nivel 2 ya paso la primera etapa ahora las cosas seran mas faciles... o tal vez no!! </center>
+                 <center>que bien ya está en el nivel 2 ya paso la primera etapa ahora las cosas serán mas fáciles... o tal vez no!! </center>
           </div>
           <form action="nivel2.php" method="post" >
           <h1>El Internet y las redes de computadora transmiten su<br>
-          comunicación e información a través de puertos,<br>
-          son como unos túneles por donde pasa la información,<br>
+          comunicación e información a través de puertos, <br>
+          son como unos túneles por donde pasa la información, <br>
           la cual se le conoce como puertos, <br>
-          ¿cuantos puertos existen? te doy una ayuda  son mas de 65000 y menos de 66000.   </h1>
+          ¿cuantos puertos existen? te doy una ayuda son más de 65000 y menos de 66000.   </h1>
+
 
     <input type="number" name="port"/>
-    <button class="btn btn-success"   type="submit">validar</button>
+    <button class="btn btn-success"   type="submit">Validar</button>
   </form>
   <!-- son  16 bits-->
 

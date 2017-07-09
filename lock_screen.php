@@ -45,7 +45,7 @@ include ("datos_usuario.php");
 <body class="lock-screen" onload="arranque(60,<?php echo $id; ?>)">
 
     <div class="lock-wrapper">
-    <center><h1>te recomiendo espera los 4 minutos por que de lo contarrio se reiniciara el temporizador</h1></center>
+    <center><h1>te recomiendo espera los 4 minutos porque de lo contrario se reiniciará el temporizador</h1></center>
 
         <div id="time"></div>
 

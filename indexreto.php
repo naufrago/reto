@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>reto-nivel 1</title>
+<title>Reto-nivel 1</title>
 <?php include "head.php"; ?>
 <div><div><div>
       <!-- esto es una llave  que tal ves necesite mas adelante 
@@ -49,7 +49,7 @@ include ("datos_usuario.php");
           if(isset($_GET['status']) and $_GET['status']==6){
     ?>
           <div class="alert alert-success alert-dismissable">
-                  <center>REGISTRO EXITOSO - INICIO DE SESION EXITOSO</center>
+                  <center>REGISTRO EXITOSO - INICIO DE SESIÓN EXITOSO </center>
           </div>
       <?php }  ?>
       <?php //cuadro
@@ -68,8 +68,9 @@ include ("datos_usuario.php");
     </div></div></div></DIV></div></div></div>
 
     <center>
-      <h1>verifica que  no pases por alto nada  muchas veces  en los comentarios puedes encontrar informacion  muy util no solo para este nivel sino para los que vienen mas adelante, ademas de encontrar palabras key que se requieren para el ultimo nivel no desprecies nada por insignificante que paresca.<br><br> Le recomendamos que utilice navegadores como firefox u opera.</h1>
+      <h1>verifica que no pases por alto nada muchas veces en los comentarios puedes encontrar información muy útil no solo para este nivel sino para los que vienen más adelante, además de encontrar palabras key que se requieren para el ultimo nivel no desprecies nada por insignificante que parezca. <br><br> Le recomendamos que utilice navegadores como Firefox u Opera. </h1>
     </center>
+
     
 
     

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>reto-nivel 4</title>
+<title>Reto-nivel 4</title>
 <script type="text/javascript">
 
 </script>
@@ -44,7 +44,7 @@ include ("datos_usuario.php");
 <section id="main-content">
 	<section class="wrapper">
     <div class="alert alert-success alert-dismissable">
-                  <center>poco a poco se va sumando puntos a este reto</center>
+                  <center>Poco a poco se va sumando puntos a este reto.</center>
           </div>
            <?php 
 		    if(isset($_POST['a'])  and $_POST['a']== "5" and $_POST['b']== "5" and $_POST['c']== "1" and $_POST['d']== "1" and $_POST['e']== "4"  and $_POST['orden']== "4,1,3,5,2"){
@@ -59,8 +59,9 @@ include ("datos_usuario.php");
                                           </div>
                                           <div class="modal-body">
 
-                                              muy pocos han llegado hasta este  punto ... <br>
-                                              estas a un clik del siguiente nivel.
+                                              Muy pocos han llegado hasta este punto ... <br>
+                                              estas a un clic del siguiente nivel.
+
 
                                           </div>
                                           <form action="pintoresco.php">

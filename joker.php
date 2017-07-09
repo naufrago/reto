@@ -44,9 +44,9 @@ include ("datos_usuario.php");
 <section id="main-content">
 	<section class="wrapper">
     <div class="alert alert-success alert-dismissable">
-                  <center>Bueno ya es hora de registrar  las palabras claves que encontro en algunos niveles, estas palabras son  13 </center>
+                  <center>Bueno ya es hora de registrar las palabras claves que encontró en algunos niveles, estas palabras son 13 </center>
           </div>
-          <h1>palabras claves:</h1>
+          <h1>Palabras claves:</h1>
           <form action="validar.php" method="post">
             <h2>#1</h2>
             <input type="text" name="1" id="1" class="form-control" style="width:390px" placeholder="palabra clave encontrada">
@@ -87,7 +87,7 @@ include ("datos_usuario.php");
             <h2>#13</h2>
             <input type="text" name="13" id="13" class="form-control" style="width:390px" placeholder="palabra clave encontrada"> <br><br>
 
-              <button class="btn btn-success"   type="submit">validar  key's</button> </center>
+              <button class="btn btn-success"   type="submit">Validar  key's</button> </center>
 
           </form>
           

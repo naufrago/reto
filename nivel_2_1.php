@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>reto-nivel 2.1</title>
+<title>Reto-nivel 2.1</title>
 <script type="text/javascript">
 
 </script>
@@ -36,7 +36,7 @@ include ("datos_usuario.php");
 	}
     ?>
 
-<!-- si desencriptas esta cadena por  encriptarhex.php y luego por encriptar.php  
+<!-- si desencriptas esta cadena por  conversorhex.php y luego por encriptar.php  
 pasaras al siguente nivel 
 
 495847786f57763336324f3735414c50395a5834586c6a55765655434b386b574a636f4174506c6e5334724a6f74636f464869307a35676f425a51397a54507572475459486a6b4c6145674b6843567a4b4653656d513d3d20
@@ -50,7 +50,7 @@ pasaras al siguente nivel
 <section id="main-content">
 	<section class="wrapper">
     <div class="alert alert-success alert-dismissable">
-                  <center>nivel 2.1<br> que bien este camino es mas rapido !</center>
+                  <center>un nivel mas nivel <br> Que bien este camino es más rapido !</center>
           </div>
 
 

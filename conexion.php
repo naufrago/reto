@@ -1,7 +1,7 @@
 <?php
 	//datos necesarios para la conexion
 	$db_host="localhost";//direccion del serviedor
-	$db_nombre="nueva_reto";//nombre de la BD
+	$db_nombre="bd_reto";//nombre de la BD
 	$db_usuario="root";//"root" por defecto en local
 	$db_contra="";//en local es vacia por defecto
 

@@ -25,9 +25,9 @@
             <button class="btn btn-lg btn-login btn-block" type="submit">Ingresar</button>
             
             <div class="registration">
-                aun no tienen una cuenta?
+                Aun no tienen una cuenta?
                 <a class="" href="registro.php">
-                    crear cuenta nueva
+                    Crear cuenta nueva
                 </a>
                 <CENTER><a class="" href="index.php">
                     "INICIO"

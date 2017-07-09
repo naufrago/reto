@@ -41,7 +41,7 @@ include ("datos_usuario.php");
 <section id="main-content">
 	<section class="wrapper">
     <div class="alert alert-success alert-dismissable">
-                  <center>felicitaciones  has terminado el reto  y esta es la lista que ya lo han logrado. </center>
+                  <center>Felicitaciones has terminado el reto y esta es la lista que ya lo han logrado. </center>
           </div>
           
           <table class="table table-striped">

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <!--INCLUIMOS EL HEAD-->
+<title>Palabras claves</title>
 <?php include ("head.php"); ?>
 <?php include ("control_sesion.php");
 include ("controladmin.php");

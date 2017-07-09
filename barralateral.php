@@ -25,7 +25,9 @@
                             $url=$fila1['url'];
 
                             ?>
-                            <li><a  href="<?php echo $url;?>"><?php echo $nombrenivel; ?></a></li>
+                            <li><a  href="<?php echo $url;?>">
+                            <i class="icon-thumbs-up-alt"></i>
+                            <span><?php echo $nombrenivel; ?></span></a></li>
                             <?php
 
 

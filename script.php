@@ -36,7 +36,7 @@
               slideSpeed : 300,
               paginationSpeed : 400,
               singleItem : true,
-			  autoPlay:true
+        autoPlay:true
 
           });
       });
@@ -59,4 +59,84 @@
           jQuery(".fancybox").fancybox();
       });
 
+  </script>
+
+
+
+
+  
+
+  <!-- js placed at the end of the document so the pages load faster -->
+    <!--<script src="js/jquery.js"></script>
+    <script type="text/javascript" language="javascript" src="assets/advanced-datatable/media/js/jquery.js"></script>-->
+   
+    
+    <script type="text/javascript" language="javascript" src="assets/advanced-datatable/media/js/jquery.dataTables.js"></script>
+
+
+    
+
+    <script type="text/javascript">
+      /* Formating function for row details */
+      function fnFormatDetails ( oTable, nTr )
+      {
+          var aData = oTable.fnGetData( nTr );
+          var sOut = '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">';
+          sOut += '<tr><td>Usuario Analizado:</td><td>'+aData[2]+' '+aData[3]+'</td></tr>';
+          sOut += '<tr><td>Nick:</td><td>'+aData[4]+'</td></tr>';
+          sOut += '<tr><td>Rol:</td><td>'+aData[5]+'</td></tr>';
+          sOut += '<tr><td>Ver historia de niveles:</td><td><a  href="datos.php?id='+aData[1]+'">';
+          sOut +='<i class="icon-hand-right"></i><span>...Ir...</span><i class=" icon-hand-left"></i></a></td></tr>';
+          sOut += '</table>';
+
+          return sOut;
+      }
+
+      $(document).ready(function() {
+          /*
+           * Insert a 'details' column to the table
+           */
+          var nCloneTh = document.createElement( 'th' );
+          var nCloneTd = document.createElement( 'td' );
+          nCloneTd.innerHTML = '<img src="assets/advanced-datatable/examples/examples_support/details_open.png">';
+          nCloneTd.className = "center";
+
+          $('#hidden-table-info thead tr').each( function () {
+              this.insertBefore( nCloneTh, this.childNodes[0] );
+          } );
+
+          $('#hidden-table-info tbody tr').each( function () {
+              this.insertBefore(  nCloneTd.cloneNode( true ), this.childNodes[0] );
+          } );
+
+          /*
+           * Initialse DataTables, with no sorting on the 'details' column
+           */
+          var oTable = $('#hidden-table-info').dataTable( {
+              "aoColumnDefs": [
+                  { "bSortable": false, "aTargets": [ 0 ] }
+              ],
+              "aaSorting": [[1, 'asc']]
+          });
+
+          /* Add event listener for opening and closing details
+           * Note that the indicator for showing which row is open is not controlled by DataTables,
+           * rather it is done here
+           */
+          $('#hidden-table-info tbody td img').live('click', function () {
+              var nTr = $(this).parents('tr')[0];
+              if ( oTable.fnIsOpen(nTr) )
+              {
+                  /* This row is already open - close it */
+                  this.src = "assets/advanced-datatable/examples/examples_support/details_open.png";
+                  oTable.fnClose( nTr );
+              }
+              else
+              {
+                  /* Open this row */
+                  this.src = "assets/advanced-datatable/examples/examples_support/details_close.png";
+                  oTable.fnOpen( nTr, fnFormatDetails(oTable, nTr), 'details' );
+              }
+          } );
+      } );
   </script>

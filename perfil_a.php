@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <!--INCLUIMOS EL HEAD-->
+<title>Perfil de Usuario</title>
 <?php include ("head.php"); ?>
 <?php include ("control_sesion.php");
 include ("controladmin.php");

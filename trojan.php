@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>reto-nivel 3</title>
+<title>Reto-nivel 3</title>
 <script type="text/javascript">
 
 </script>
@@ -49,20 +49,21 @@ include ("datos_usuario.php");
 
            <form action="trojan.php" method="post"><center>
 		      <h1>Que tanto sabe de virus y que puertos o backdoors utilizan</h1><br><br>
-		      <h2>tengo estos virus y tienen  un puerto en comun cual es</h2><br>
+		      <h2>tengo estos virus y tienen  un puerto en común cual es</h2><br>
 		      <h2>Subseven.100, SubSeven.110, SubSeven.180, SubSeven.190,
 				Subseven.200</h2> 
 
-				puerto: 
+				puerto:
+ 
 		    <input type="number" name="trojan" id="trojan">
-		    <button class="btn btn-success"   type="submit">validar</button></center>
+		    <button class="btn btn-success"   type="submit">Validar</button></center>
 		    </form>
 
 
 		    <?php 
 		    if(isset($_POST['trojan']) and $_POST['trojan']== 1243){ ?>
 		    	<div class="alert alert-success alert-dismissable"><h1>
-                  <center>exelente  recuerda  esta palabra clave "1243"</center><br><br><CENTER><a class="" href="movies.php">
+                  <center>Exelente  recuerda  esta palabra clave "1243"</center><br><br><CENTER><a class="" href="movies.php">
                     "BUENO QUE TAL VAS, TE CUENTO VAS POR BUEN CAMINO..."
                 </a></CENTER></h1>
           		</div>
