@@ -53,66 +53,66 @@ include ("datos_usuario.php");
                       <ul class="grid cs-style-3">
                           <li>
                               <figure>
-                                  <img src="img/matrix.jpg" width="201" height="156">
+                                  <img src="img/matrix.JPG" width="201" height="156">
                                   <figcaption>
                                       <h3>Matrix recargado </h3>
                                       <span>Reto-nivel 3.1 </span>
-                                      <a class="fancybox" rel="group" href="img/matrix.jpg">ver imagen</a>
+                                      <a class="fancybox" rel="group" href="img/matrix.JPG">ver imagen</a>
                                   </figcaption>
                               </figure>
                           </li>
 
                           <li>
                               <figure>
-                                  <img src="img/snowden.jpg" width="201" height="156">
+                                  <img src="img/snowden.JPG" width="201" height="156">
                                   <figcaption>
                                       <h3>Snowden </h3>
                                       <span>Reto-nivel 3.1 </span>
-                                      <a class="fancybox" rel="group" href="img/snowden.jpg">ver imagen</a>
+                                      <a class="fancybox" rel="group" href="img/snowden.JPG">ver imagen</a>
                                   </figcaption>
                               </figure>
                           </li>
 
                           <li>
                               <figure>
-                                  <img src="img/dredd.jpg" width="201" height="156">
+                                  <img src="img/dredd.JPG" width="201" height="156">
                                   <figcaption>
                                       <h3>Dredd </h3>
                                       <span>Reto-nivel 3.1 </span>
-                                      <a class="fancybox" rel="group" href="img/dredd.jpg">ver imagen</a>
+                                      <a class="fancybox" rel="group" href="img/dredd.JPG">ver imagen</a>
                                   </figcaption>
                               </figure>
                           </li>
 
                           <li>
                               <figure>
-                                  <img src="img/elysium.jpg" width="201" height="156">
+                                  <img src="img/elysium.JPG" width="201" height="156">
                                   <figcaption>
                                       <h3>Elysium </h3>
                                       <span>Reto-nivel 3.1 </span>
-                                      <a class="fancybox" rel="group" href="img/elysium.jpg">ver imagen</a>
+                                      <a class="fancybox" rel="group" href="img/elysium.JPG">ver imagen</a>
                                   </figcaption>
                               </figure>
                           </li>
 
                           <li>
                               <figure>
-                                  <img src="img/Who.jpg" width="201" height="156">
+                                  <img src="img/Who.JPG" width="201" height="156">
                                   <figcaption>
                                       <h3>Who Am I—No System Is Safe </h3>
                                       <span>Reto-nivel 3.1 </span>
-                                      <a class="fancybox" rel="group" href="img/who.jpg">ver imagen</a>
+                                      <a class="fancybox" rel="group" href="img/Who.JPG">ver imagen</a>
                                   </figcaption>
                               </figure>
                           </li>
 
                           <li>
                               <figure>
-                                  <img src="img/game.jpg" width="201" height="156">
+                                  <img src="img/game.JPG" width="201" height="156">
                                   <figcaption>
                                       <h3>Game of Death </h3>
                                       <span>Reto-nivel 3.1 </span>
-                                      <a class="fancybox" rel="group" href="img/game.jpg">ver imagen</a>
+                                      <a class="fancybox" rel="group" href="img/game.JPG">ver imagen</a>
                                   </figcaption>
                               </figure>
                           </li>

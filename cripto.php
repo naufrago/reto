@@ -3,7 +3,7 @@
 <title>Reto-nivel 1.2</title>
 <script type="text/javascript">
 function alerta(){
-  var a= "<?php alertcrypto();?>";//busca la key para el siguiente nivel recuerda desde los niveles pasados hay palabras claves
+  var a="<?php echo alertcrypto(); ?>";
   alert(a);
  
 }
@@ -53,7 +53,7 @@ include ("datos_usuario.php");
           </div>
 
 
-    <center><h1>1rs1dUYrRbMWRFrZJjuJ97Hys5oU28dJ61rRaY/+SVth4mgCkcctmhlI<br>JpGg0rz4HIA3I1CqX7gDoEUg/<br>Etr13VzUvef9pEKvPaQZD5gGbNDZEixR6OjhxPz<br>LTYF7xjaarc1uUm3oGaiZQRLpyH9LiUE/<br>n4T6Vn+R/lzaA0kmmJdGD+/jtLd3DrTi+NV5yTPO9tB7OrBEbjuIE7T+RdhEw==</h1></center>
+    <center><h1>c2VndXJhbWVudGUrZGViZXMrZXN0YXIrcGVuc2FuZG8rc<br>XVlK2NsYXNlK2RlK2J1cmxhK2VzK2VzdGElMkMrcG<br>VybytpbnRlbnRhbG8rbm8rZGViZStkZStzZXIrdGFuK2RpZml<br>jaWwrcGFyYSt1c3RlZC4uLitvK3NpK2xvK2VzJTNGKw==</h1></center>
 
     
     <button class="btn btn-success"  onclick="alerta()" >que dice ?</button>
@@ -62,9 +62,9 @@ include ("datos_usuario.php");
     <?php 
     function alertcrypto()
     {
-      $cadena='1rs1dUYrRbMWRFrZJjuJ97Hys5oU28dJ61rRaY/+SVth4mgCkcctmhlIJpGg0rz4HIA3I1CqX7gDoEUg/Etr13VzUvef9pEKvPaQZD5gGbNDZEixR6OjhxPzLTYF7xjaarc1uUm3oGaiZQRLpyH9LiUE/n4T6Vn+R/lzaA0kmmJdGD+/jtLd3DrTi+NV5yTPO9tB7OrBEbjuIE7T+RdhEw==';
+      $cadena='c2VndXJhbWVudGUrZGViZXMrZXN0YXIrcGVuc2FuZG8rcXVlK2NsYXNlK2RlK2J1cmxhK2VzK2VzdGElMkMrcGVybytpbnRlbnRhbG8rbm8rZGViZStkZStzZXIrdGFuK2RpZmljaWwrcGFyYSt1c3RlZC4uLitvK3NpK2xvK2VzJTNGKw==';
      $key='';  // Una clave de codificacion, debe usarse la misma para encriptar y desencriptar
-     $decrypted = rtrim(mcrypt_decrypt(MCRYPT_RIJNDAEL_256, md5($key), base64_decode($cadena), MCRYPT_MODE_CBC, md5(md5($key))), "\0");
+     $decrypted = urldecode(base64_decode($cadena));
      echo "".$decrypted;
     } ?>
 

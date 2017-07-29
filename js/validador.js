@@ -30,6 +30,11 @@ $(function() {
                 required: true,
                 minlength: 2
             },
+
+            usuario: {
+                required: true,
+                minlength: 6
+            },
             password: {
                 required: true,
                 minlength: 6,
@@ -44,6 +49,10 @@ $(function() {
         {
             nombre: "Ingresa un nombre válido",
             apellido: "Ingresa un apellido válido",
+            usuario:{
+                required: "Ingresa una usuario",
+                minlength: "usuario muy corta (mínimo 6 caracteres)"
+            },
             password:{
                 required: "Ingresa una contraseña",
                 minlength: "Contraseña muy corta (mínimo 6 caracteres)"

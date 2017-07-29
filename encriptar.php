@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Encriptar</title>
+  <title>Encriptar</title>
     <?php include "head.php"; ?>
 </head>
 <body>
@@ -19,7 +19,8 @@
       {
         $cadena=$_POST['encriptar'];
     $key='';  // Una clave de codificacion, debe usarse la misma para encriptar y desencriptar
-    $encrypted = base64_encode(mcrypt_encrypt(MCRYPT_RIJNDAEL_256, md5($key), $cadena, MCRYPT_MODE_CBC, md5(md5($key))));
+    $encrypted = base64_encode(urlencode($cadena));
+    //base64_encode(mcrypt_encrypt(MCRYPT_RIJNDAEL_256, md5($key), $cadena, MCRYPT_MODE_CBC, md5(md5($key))));
     echo "cadena encriptada = ";
     echo "".$encrypted;
 
@@ -39,7 +40,9 @@
       {
         $cadena=$_POST['desencriptar'];
      $key='';  // Una clave de codificacion, debe usarse la misma para encriptar y desencriptar
-     $decrypted = rtrim(mcrypt_decrypt(MCRYPT_RIJNDAEL_256, md5($key), base64_decode($cadena), MCRYPT_MODE_CBC, md5(md5($key))), "\0");
+     $decrypted = urldecode(base64_decode($cadena));
+     //convert_uudecode(base64_decode(urldecode($cadena)));
+     //rtrim(mcrypt_decrypt(MCRYPT_RIJNDAEL_256, md5($key), base64_decode($cadena), MCRYPT_MODE_CBC, md5(md5($key))), "\0");
      echo "<br> cadena desencriptada = ";
      echo "".$decrypted;
         

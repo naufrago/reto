@@ -24,25 +24,26 @@
             <p>Ingrese sus datos personales</p>
             Nombre(s)
             <div class="form-group has-feedback">
-            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="nombre" autofocus></div>
+            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="nombre" ></div>
             Apellido(s)
             <div class="form-group has-feedback">
-            <input type="text" class="form-control" id="apellido" name="apellido" placeholder="apellido" autofocus></div>
+            <input type="text" class="form-control" id="apellido" name="apellido" placeholder="apellido" ></div>
             
 
             <p> Ingrese sus datos de cuenta</p>
             Usuario
             <div class="form-group has-feedback">
-            <input type="text" class="form-control" id="usuario" name="usuario" placeholder="usuario" autofocus></div>
+            <input type="text" class="form-control" id="usuario" name="usuario" placeholder="usuario" ></div>
             Password
             <div class="form-group has-feedback">
             <input class="form-control" placeholder="password" name="password" id="loginpsw1" type="password" autocomplete="off" />
             </div>
-            Repita password
-            <input type="password" class="form-control" name="password_again" id="loginpsw2" placeholder="confirmar Password">
-            <label class="checkbox">
-                <input type="checkbox" value="agree this condition"> Acepto las politicas de privacidad y terminos de servicio.
-            </label>
+            Repita el Password
+            <div class="form-group has-feedback">
+                <input class="form-control" placeholder="Confirmar contraseña" name="password_again" id="loginpsw2" type="password" autocomplete="off" />
+            </div>
+            
+            
             <button class="btn btn-lg btn-login btn-block" type="submit">Registrar</button>
 
             <div class="registration">

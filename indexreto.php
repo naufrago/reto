@@ -4,7 +4,7 @@
 <?php include "head.php"; ?>
 <div><div><div>
       <!-- esto es una llave  que tal ves necesite mas adelante 
-      "0UXzwu/h40Y4i8FOFsz+aMPbunE1kmVuHcpGxf2HgW8="
+      "cGxvdGtleTEuMis="
      -->
     </div></div></div>
 <?php include ("control_sesion.php");

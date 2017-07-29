@@ -10,7 +10,7 @@
 <!-- 
 talves solo tal ves en encriptar.php
 
-a/SGTsz//sxsA6UOwjKnM+2rLTP4btLNoADsgm5AQ3zS6z5pMO87j28LA2QmRI0t6j4rS0nSR7lUzSHOk1aBKA== 
+ZXN0ZStudW1lcm8rZXMrbXV5K2ludGVyZXNhbnRlKzY1NTM1Kw== 
 
 -->
 <?php include ("control_sesion.php");
